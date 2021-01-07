@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="80dp"
+        android:scrollbarStyle="outsideInset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"
+        app:menu="@menu/bottom_nav_menu"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:layout_width="72dp"
+        android:layout_height="69dp"
+        android:background="@color/grey"
+        android:contentDescription="@string/back_to_the_side"
+        android:src="@drawable/ic_baseline_arrow_back_ios_new_24_2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="69dp"
+        android:gravity="center"
+        android:background="@color/grey"
+        android:text="@string/einstellungen"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="ltr"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="-0dp" />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:gravity="start|center"
+        android:text="@string/design"
+        android:backgroundTint="@color/button_bg_color_profile"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/button_bg_color_profile"
+        android:gravity="start|center"
+        android:text="@string/datenschutz"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/button_bg_color_profile"
+        android:gravity="start|center"
+        android:text="@string/impressum"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/button_bg_color_profile"
+        android:gravity="start|center"
+        android:text="@string/ber_uns"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="340dp"
+        />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/button_bg_color_profile"
+        android:gravity="start|center"
+        android:text="@string/agbs"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/button_bg_color_profile"
+        android:gravity="start|center"
+        android:text="@string/hilfe"
+        android:textColor="@color/black"
+        android:drawableEnd="@drawable/baseline_help_outline_black_36dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:text="@string/account_l_schen"
+        android:textColor="@color/red"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="615dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

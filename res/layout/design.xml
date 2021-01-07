@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:scrollbarStyle="outsideInset"
+        app:menu="@menu/bottom_nav_menu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="755dp" />
+
+    <ImageButton
+        android:layout_width="72dp"
+        android:layout_height="73dp"
+        android:background="@color/grey"
+        android:contentDescription="@string/back_to_the_side"
+        android:src="@drawable/ic_baseline_arrow_back_ios_new_24_2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="73dp"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:text="Design"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="ltr"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="-0dp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="598dp"
+        android:gravity="start|center"
+        android:text="@string/dunkler_hintergrund"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="596dp"
+        android:onClick="sendMessage"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.515" />
+</androidx.constraintlayout.widget.ConstraintLayout>

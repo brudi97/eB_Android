@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".RatingbarActivity">
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:backgroundTint="@color/button_background_color_standard"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="650px"
+        android:height="80px"
+        android:text="Erzähle uns von deinen Erfahrungen:"
+        android:textColor="@color/basalt_grey"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="650px"
+        android:height="80px"
+        android:text="Bewerte dein Arbeitgeber"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/basalt_grey"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Bewertung für Erika Mustermann"
+        android:backgroundTint="@color/basalt_grey"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <ImageView
+        android:layout_width="127dp"
+        android:layout_height="92dp"
+        android:background="@drawable/shape"
+        android:src="@drawable/outline_photo_grey_500_18dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="358dp"
+        android:layout_height="121dp"
+        android:hint="Bewertung schreiben!"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <Button
+        android:layout_width="169dp"
+        android:layout_height="42dp"
+        android:text="Absenden"
+        tools:ignore="MissingConstraints"
+        android:backgroundTint="@color/button_background_color_ob__lg"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="608dp" />
+
+    <ImageButton
+        android:layout_width="72dp"
+        android:layout_height="69dp"
+        android:background="@color/white"
+        android:contentDescription="@string/back_to_the_side"
+        android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="392dp"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-15dp"
+        tools:layout_editor_absoluteY="703dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

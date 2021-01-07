@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:layout_width="72dp"
+        android:layout_height="73dp"
+        android:background="@color/grey"
+        android:contentDescription="@string/back_to_the_side"
+        android:src="@drawable/ic_baseline_arrow_back_ios_new_24_2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="326dp"
+        android:layout_height="73dp"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:text="@string/benachrichtigungen"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textDirection="ltr"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="-0dp" />
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:gravity="start"
+        android:text="Mitteilungen für Nachrichten"
+        android:textColor="@color/blue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:layout_width="211dp"
+        android:layout_height="34dp"
+        android:gravity="start"
+        android:text="Mitteilungen anzeigen"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="217dp"
+        android:layout_height="39dp"
+        android:gravity="start"
+        android:text="Mitteilungen anzeigen"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:gravity="start"
+        android:text="Standard >"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:gravity="start"
+        android:text="Standard >"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <TextView
+        android:layout_width="121dp"
+        android:layout_height="40dp"
+        android:gravity="start"
+        android:text="Ton"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="169dp"
+        android:layout_height="35dp"
+        android:gravity="start"
+        android:text="Ton"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="36dp"
+        android:background="@color/grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:background="@color/grey"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="320dp"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <Switch
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="683dp" />
+
+    <TextView
+        android:layout_width="324dp"
+        android:layout_height="39dp"
+        android:gravity="start"
+        android:text="Benachrichtigungen"
+        android:textColor="@color/blue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="249dp"
+        android:layout_height="47dp"
+        android:gravity="start"
+        android:text="Job-Alert"
+        android:textColor="@color/blue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="683dp" />
+
+    <TextView
+        android:layout_width="348dp"
+        android:layout_height="88dp"
+        android:gravity="start"
+        android:text="Erhalte Benachrichtigungen über angenommene Jobanfragen , erhaltene Bewertungen und weiteres."
+        android:textColor="@color/basalt_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="355dp"
+        android:layout_height="59dp"
+        android:gravity="start"
+        android:text="Erhalte Benachrichtigungen, wenn Jobs in deiner Nähe frei werden."
+        android:textColor="@color/basalt_grey"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="730dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1000dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
