@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Vermittlung</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_menu">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_settings_profile">Settings_profile</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_profil_main">MainActivity</string>
+    <string name="title_activity_settings2">MainActivity</string>
+    <string name="hilfe">Hilfe</string>
+    <string name="ber_uns">Über uns</string>
+    <string name="impressum">Impressum</string>
+    <string name="datenschutz">Datenschutz</string>
+    <string name="design">Design</string>
+    <string name="einstellungen">Einstellungen</string>
+    <string name="agbs">AGBs</string>
+    <string name="back_to_the_side">Back to the side</string>
+    <string name="account_l_schen">Account löschen</string>
+    <string name="dunkler_hintergrund">Dunkler Hintergrund</string>
+    <string name="gespeichert">Gespeichert</string>
+    <string name="nachrichten">Nachrichten</string>
+    <string name="profil">Profil</string>
+    <string name="jobs">Jobs</string>
+    <string name="benachrichtigungen">Benachrichtigungen</string>
+    <string name="sprachen">Sprachen:</string>
+    <string name="wohnort">Wohnort:</string>
+    <string name="alter">Alter:</string>
+    <string name="hello_and_welcome">Hello and Welcome!</string>
+    <string name="todo">TODO</string>
+    <string name="in_den_ersten_schritten_lernst_du_die_app_besser_kennen">in den ersten Schritten lernst du die App besser kennen</string>
+</resources>
