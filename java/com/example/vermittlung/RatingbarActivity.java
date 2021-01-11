@@ -18,7 +18,7 @@ public class RatingbarActivity extends AppCompatActivity {
 
        rb1 = (RatingBar) findViewById(R.id.ratingbar);
        rb1.setNumStars(5);
-       rb1.setStepSize((float)0.5);
+       rb1.setStepSize(1);
        rb1.setRating(5);
 
        // rb1.setisIndicator(true) : nimmt man für Bewertungen rein, die nur zur Schau dienen
