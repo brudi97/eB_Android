@@ -3,27 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_jobs">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.vermittlung.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:id="@+id/navigation_jobs"
+        android:name="com.example.vermittlung.ui.home.JobsFragment"
+        android:label="Jobs"
         tools:layout="@layout/fragment_jobs" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_gespeichert"
         android:name="com.example.vermittlung.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="Gespeichert"
         tools:layout="@layout/fragment_gespeichert" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_nachrichten"
         android:name="com.example.vermittlung.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/nachrichten"
         tools:layout="@layout/fragment_nachrichten" />
     <fragment
-        android:id="@+id/settingsFragment"
+        android:id="@+id/settings_activity"
         android:name="com.example.vermittlung.Settings_profile.SettingsFragment"
-        android:label="SettingsFragment" />
+        android:label="Profil"
+        tools:layout="@layout/fragment_profil"/>
 </navigation>
