@@ -10,16 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vermittlung" >
         <activity
+            android:name=".MainMenu"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity
             android:name=".settings2"
             android:label="@string/title_activity_settings2" >
         </activity>
         <activity android:name=".RatingbarActivity" />
         <activity
-            android:name="SettingsActivity"
+            android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
         <activity
             android:name=".main_menu"
             android:label="@string/title_activity_main_menu" />
+        <activity android:name=".ProfAnz" />
+        <activity android:name=".ProfBearb"/>
+        <activity android:name=".Einstellungen" />
+        <activity android:name=".Benachrichtigung"/>
+        <activity android:name=".PersonAngaben" />
+        <activity android:name=".Onboarding6" />
+        <activity android:name=".Onboarding5" />
+        <activity android:name=".Onboarding4" />
+        <activity android:name=".Onboarding3" />
         <activity android:name=".Onboarding2" />
         <activity android:name=".Onboarding1" />
         <activity android:name=".MainActivity" >
