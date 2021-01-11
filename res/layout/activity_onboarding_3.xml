@@ -19,10 +19,11 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/textView36"
         android:layout_width="240dp"
         android:layout_height="60dp"
         android:layout_marginStart="76dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="8dp"
         android:gravity="center"
         android:text="Mit der Bewertungsfunktion kannst du den Arbeitgeber bewerten und deine Kritik darüber vergeben."
         app:layout_constraintStart_toStartOf="parent"
@@ -30,59 +31,66 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/textView35"
         android:layout_width="200dp"
         android:layout_height="30dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="116dp"
-        android:layout_marginEnd="109dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="97dp"
         android:layout_marginBottom="47dp"
         android:gravity="center"
         android:text="4/6"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/btn1"
+        app:layout_constraintBottom_toTopOf="@+id/skip_3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/textView36"
         tools:ignore="MissingConstraints" />
 
     <Button
-
-        android:id="@+id/btn1"
+        android:id="@+id/skip_4"
         android:layout_width="80dp"
         android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="94dp"
         android:backgroundTint="@color/button_background_color_ob_used"
         android:text="Skip"
         android:textColor="@color/white"
         android:textSize="10dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="641dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/back3"
+        tools:ignore="MissingConstraints" />
 
     <Button
 
-        android:id="@+id/btn2"
+        android:id="@+id/back3"
         android:layout_width="80dp"
         android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="94dp"
         android:backgroundTint="@color/button_bg_color_back"
         android:text="Back"
         android:textColor="@color/white"
         android:textSize="10dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="641dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
+        android:id="@+id/next4"
         android:layout_width="80dp"
         android:layout_height="50dp"
-        tools:ignore="MissingConstraints"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="94dp"
+        android:backgroundTint="@color/button_background_color_ob_lg_unused"
         android:text="Next"
         android:textColor="@color/black"
-        android:backgroundTint="@color/button_background_color_ob_lg_unused"
         android:textSize="12dp"
-        tools:layout_editor_absoluteX="250dp"
-        tools:layout_editor_absoluteY="641dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView4"
@@ -105,8 +113,8 @@
         android:id="@+id/imageView10"
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:src="@drawable/ic_baseline_message_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
@@ -116,8 +124,8 @@
         android:id="@+id/imageView"
         android:layout_width="150dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="43dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="44dp"
         android:src="@drawable/ic_baseline_star_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"

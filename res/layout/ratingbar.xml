@@ -13,94 +13,129 @@
         android:id="@+id/ratingbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numStars="5"
-        android:stepSize="0.5"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="72dp"
         android:backgroundTint="@color/button_background_color_standard"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="250dp" />
+        android:numStars="5"
+        android:stepSize="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="31dp"
         android:width="650px"
         android:height="80px"
         android:text="Erzähle uns von deinen Erfahrungen:"
         android:textColor="@color/basalt_grey"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="386dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:ignore="MissingConstraints" />
 
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="24dp"
         android:width="650px"
         android:height="80px"
-        android:text="Bewerte dein Arbeitgeber"
         android:gravity="center"
-        android:textStyle="bold"
+        android:text="Bewerte dein Arbeitgeber"
         android:textColor="@color/basalt_grey"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="326dp" />
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingbar"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:text="Bewertung für Erika Mustermann"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="@color/basalt_grey"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="114dp" />
+        android:text="Bewertung für Erika Mustermann"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:id="@+id/imageView13"
         android:layout_width="127dp"
         android:layout_height="92dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
         android:background="@drawable/shape"
         android:src="@drawable/outline_photo_grey_500_18dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="226dp"
-        tools:layout_editor_absoluteY="79dp" />
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="358dp"
-        android:layout_height="121dp"
+        android:layout_width="313dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/border"
+        android:gravity="left | top"
         android:hint="Bewertung schreiben!"
         android:inputType="textMultiLine"
-        android:lines="5"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="444dp" />
+        android:lines="3"
+        android:minLines="2"
+        android:maxLines="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:layout_width="169dp"
         android:layout_height="42dp"
-        android:text="Absenden"
-        tools:ignore="MissingConstraints"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="43dp"
         android:backgroundTint="@color/button_background_color_ob__lg"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="608dp" />
+        android:text="Absenden"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
+        android:id="@+id/imageButton2"
         android:layout_width="72dp"
         android:layout_height="69dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
         android:background="@color/white"
         android:contentDescription="@string/back_to_the_side"
         android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="392dp"
-        android:layout_height="66dp"
+        android:id="@+id/bottomNavigationView3"
+        android:layout_width="390dp"
+        android:layout_height="49dp"
         android:layout_alignParentBottom="true"
+        app:itemBackground="@color/grey"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_nav_menu"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-15dp"
-        tools:layout_editor_absoluteY="703dp" />
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

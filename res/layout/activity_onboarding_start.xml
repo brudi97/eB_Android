@@ -59,47 +59,54 @@
         android:textSize="24dp"
         android:gravity="center"
         android:textStyle="bold"
-        android:layout_marginStart="84dp"
+        android:layout_marginStart="89dp"
         android:layout_marginTop="48dp"
-        android:layout_marginEnd="109dp"
+        android:layout_marginEnd="104dp"
         android:layout_marginBottom="77dp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/skip1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView26"
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/skip1"
         android:layout_width="80dp"
         android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="94dp"
         android:backgroundTint="@color/button_background_color_ob_used"
         android:text="Skip"
         android:textSize="10dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="641dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="80dp"
         android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="94dp"
         android:backgroundTint="@color/button_bg_color_back_not"
         android:text="Back"
         android:textColor="@color/black"
         android:textSize="10dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="641dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
+        android:id="@+id/next1"
         android:layout_width="80dp"
         android:layout_height="50dp"
-        tools:ignore="MissingConstraints"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="94dp"
+        android:backgroundTint="@color/button_background_color_ob_lg_unused"
         android:text="Next"
         android:textColor="@color/black"
-        android:backgroundTint="@color/button_background_color_ob_lg_unused"
         android:textSize="12dp"
-        tools:layout_editor_absoluteX="250dp"
-        tools:layout_editor_absoluteY="641dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

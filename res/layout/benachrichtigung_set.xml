@@ -6,11 +6,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ImageButton
+        android:id="@+id/imageButton7"
         android:layout_width="72dp"
         android:layout_height="73dp"
         android:background="@color/grey"
         android:contentDescription="@string/back_to_the_side"
         android:src="@drawable/ic_baseline_arrow_back_ios_new_24_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -24,204 +27,250 @@
         android:textDirection="ltr"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="-0dp" />
+        app:layout_constraintStart_toEndOf="@+id/imageButton7"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
-        android:layout_width="330dp"
-        android:layout_height="45dp"
-        android:gravity="start"
+        android:id="@+id/textView39"
+        android:layout_width="322dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="48dp"
+        android:gravity="left"
         android:text="Mitteilungen für Nachrichten"
         android:textColor="@color/blue"
-        android:textSize="22sp"
+        android:textSize="12sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="92dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+        tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/textView43"
         android:layout_width="211dp"
         android:layout_height="34dp"
-        android:gravity="start"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="12dp"
+        android:gravity="left"
         android:text="Mitteilungen anzeigen"
         android:textColor="@color/brown"
-        android:textSize="20sp"
+        android:textSize="14sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="160dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="217dp"
         android:layout_height="39dp"
-        android:gravity="start"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left | center"
         android:text="Mitteilungen anzeigen"
         android:textColor="@color/brown"
-        android:textSize="20sp"
+        android:textSize="12sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="509dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42"
+        tools:ignore="MissingConstraints" />
 
     <TextView
-        android:layout_width="120dp"
-        android:layout_height="45dp"
-        android:gravity="start"
+        android:id="@+id/textView40"
+        android:layout_width="93dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="left | center"
         android:text="Standard >"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="251dp"
-        tools:layout_editor_absoluteY="283dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view6"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="120dp"
-        android:layout_height="45dp"
-        android:gravity="start"
+        android:layout_width="89dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="39dp"
+        android:gravity="left | center"
         android:text="Standard >"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="14sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="606dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="121dp"
         android:layout_height="40dp"
-        android:gravity="start"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="15dp"
+        android:gravity="left | center"
         android:text="Ton"
         android:textColor="@color/brown"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="283dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view6"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="169dp"
         android:layout_height="35dp"
-        android:gravity="start"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="13dp"
+        android:gravity="left | center"
         android:text="Ton"
         android:textColor="@color/brown"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="606dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        tools:ignore="MissingConstraints" />
 
     <View
+        android:id="@+id/view6"
         android:layout_width="320dp"
         android:layout_height="1dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="44dp"
         android:background="@color/grey"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="239dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textView43"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/view3"
         android:layout_width="320dp"
         android:layout_height="2dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
         android:background="@color/grey"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="673dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/view2"
         android:layout_width="320dp"
         android:layout_height="1dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="37dp"
         android:background="@color/grey"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="582dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch2"
+        tools:ignore="MissingConstraints" />
 
     <Switch
         android:layout_width="48dp"
         android:layout_height="45dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="149dp" />
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39"
+        tools:ignore="MissingConstraints" />
 
     <Switch
         android:id="@+id/switch2"
         android:layout_width="48dp"
         android:layout_height="45dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="503dp" />
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42"
+        tools:ignore="MissingConstraints" />
 
     <Switch
         android:id="@+id/switch3"
         android:layout_width="48dp"
         android:layout_height="45dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="305dp"
-        tools:layout_editor_absoluteY="683dp" />
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/textView41"
         android:layout_width="324dp"
         android:layout_height="39dp"
-        android:gravity="start"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="8dp"
+        android:gravity="left | center"
         android:text="Benachrichtigungen"
         android:textColor="@color/blue"
-        android:textSize="22sp"
+        android:textSize="12sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="349dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="249dp"
         android:layout_height="47dp"
-        android:gravity="start"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="8dp"
+        android:gravity="left | center"
         android:text="Job-Alert"
         android:textColor="@color/blue"
-        android:textSize="22sp"
+        android:textSize="12sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="683dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        tools:ignore="MissingConstraints" />
 
     <TextView
-        android:layout_width="348dp"
-        android:layout_height="88dp"
+        android:id="@+id/textView42"
+        android:layout_width="344dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="11dp"
         android:gravity="start"
         android:text="Erhalte Benachrichtigungen über angenommene Jobanfragen , erhaltene Bewertungen und weiteres."
         android:textColor="@color/basalt_grey"
-        android:textSize="18sp"
+        android:textSize="12sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="402dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="355dp"
         android:layout_height="59dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="14dp"
         android:gravity="start"
         android:text="Erhalte Benachrichtigungen, wenn Jobs in deiner Nähe frei werden."
         android:textColor="@color/basalt_grey"
-        android:textSize="19sp"
+        android:textSize="14sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="730dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch3"
+        tools:ignore="MissingConstraints" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="73dp"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_nav_menu"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="1000dp" />
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
